@@ -1,0 +1,9 @@
+* source BAI 5
+V_V1         N00238 0 10Vdc
+R_R1         0 N00238  200k TC=0,0 
+R_R2         N00219 N00227  50k TC=0,0 
+V_V2         N00219 0 5Vdc
+L_L1         N00808 0  100mH IC=0.0000714285 
+R_R3         N00808 N00227  20k TC=0,0 
+X_S1         N00238 N00227 Sw_tClose PARAMS: tClose=2.99999992 ttran=1u
++  Rclosed=0.01 Ropen=100000Meg
